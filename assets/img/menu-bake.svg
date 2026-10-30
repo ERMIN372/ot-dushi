@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <pattern id="orn" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M40 10l8 22 22 8-22 8-8 22-8-22-22-8 22-8z" fill="none" stroke="#a8442a" stroke-opacity=".12" stroke-width="1.5"/>
+    </pattern>
+    <radialGradient id="crust" cx=".45" cy=".4" r=".65">
+      <stop offset="0" stop-color="#e3a957"/>
+      <stop offset=".75" stop-color="#c47f33"/>
+      <stop offset="1" stop-color="#9b5a22"/>
+    </radialGradient>
+    <linearGradient id="samsa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9b465"/>
+      <stop offset="1" stop-color="#b8722c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="#f1e4cf"/>
+  <rect width="800" height="800" fill="url(#orn)"/>
+  <ellipse cx="380" cy="600" rx="300" ry="60" fill="#e2cfb3"/>
+  <circle cx="370" cy="370" r="240" fill="url(#crust)"/>
+  <circle cx="370" cy="370" r="150" fill="#e6b46b"/>
+  <circle cx="370" cy="370" r="150" fill="none" stroke="#b06c2a" stroke-width="6" stroke-opacity=".55"/>
+  <g fill="#a9652a" fill-opacity=".7">
+    <circle cx="370" cy="370" r="8"/>
+    <circle cx="370" cy="330" r="6"/><circle cx="370" cy="410" r="6"/><circle cx="330" cy="370" r="6"/><circle cx="410" cy="370" r="6"/>
+    <circle cx="342" cy="342" r="6"/><circle cx="398" cy="342" r="6"/><circle cx="342" cy="398" r="6"/><circle cx="398" cy="398" r="6"/>
+    <circle cx="370" cy="290" r="5"/><circle cx="370" cy="450" r="5"/><circle cx="290" cy="370" r="5"/><circle cx="450" cy="370" r="5"/>
+    <circle cx="313" cy="313" r="5"/><circle cx="427" cy="313" r="5"/><circle cx="313" cy="427" r="5"/><circle cx="427" cy="427" r="5"/>
+    <circle cx="340" cy="296" r="4"/><circle cx="400" cy="296" r="4"/><circle cx="340" cy="444" r="4"/><circle cx="400" cy="444" r="4"/>
+    <circle cx="296" cy="340" r="4"/><circle cx="296" cy="400" r="4"/><circle cx="444" cy="340" r="4"/><circle cx="444" cy="400" r="4"/>
+  </g>
+  <g fill="#f8ecd6">
+    <ellipse cx="230" cy="250" rx="5" ry="2.5" transform="rotate(30 230 250)"/>
+    <ellipse cx="520" cy="230" rx="5" ry="2.5" transform="rotate(-20 520 230)"/>
+    <ellipse cx="560" cy="420" rx="5" ry="2.5" transform="rotate(60 560 420)"/>
+    <ellipse cx="200" cy="430" rx="5" ry="2.5" transform="rotate(10 200 430)"/>
+    <ellipse cx="300" cy="180" rx="5" ry="2.5" transform="rotate(-40 300 180)"/>
+    <ellipse cx="450" cy="560" rx="5" ry="2.5" transform="rotate(15 450 560)"/>
+    <ellipse cx="270" cy="545" rx="5" ry="2.5" transform="rotate(-60 270 545)"/>
+    <ellipse cx="575" cy="320" rx="5" ry="2.5" transform="rotate(45 575 320)"/>
+  </g>
+  <g transform="translate(470 470)">
+    <path d="M0 150L110 0l110 150z" fill="url(#samsa)" stroke="#9b5a22" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M40 150L110 55l70 95" fill="none" stroke="#9b5a22" stroke-opacity=".5" stroke-width="3"/>
+    <g fill="#3b2a1e"><circle cx="100" cy="95" r="3"/><circle cx="118" cy="105" r="3"/><circle cx="108" cy="120" r="3"/></g>
+  </g>
+  <g transform="translate(560 540) rotate(12)">
+    <path d="M0 140L100 0l100 140z" fill="url(#samsa)" stroke="#9b5a22" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M36 140L100 52l64 88" fill="none" stroke="#9b5a22" stroke-opacity=".5" stroke-width="3"/>
+    <g fill="#3b2a1e"><circle cx="92" cy="90" r="3"/><circle cx="110" cy="98" r="3"/><circle cx="100" cy="113" r="3"/></g>
+  </g>
+</svg>
